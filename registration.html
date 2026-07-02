@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prime supermarket</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" href="fav.icon.png">
+    </head>
+<body>
+ <header>
+    <h1>Prime SuperMarket</h1>
+    <nav>
+        <a href="index.html">Home</a>&nbsp; &nbsp;
+        <a href="menu.html">Store</a>&nbsp; &nbsp;
+        <a href="about.html">about us</a>&nbsp; &nbsp;
+        <a href="price.html">price</a>&nbsp; &nbsp
+        <a href="registration.html">Order</a>&nbsp; &nbsp;
+        <a href="contacts.html">contacts</a>&nbsp; &nbsp;
+        <a href="FAQ.html">FAQ</a>&nbsp; &nbsp;
+    
+    </nav>
+    </header>
+<h3>order and registration</h3>
+<div class="order">
+    <div class="form">
+    <form action="method">
+        <fieldset>
+            <legend>Personal information</legend>
+            <p>
+            <label for="name">Full Name:</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter your full name">
+        </p>
+        <P>
+            <Label for="email">Email:</Label><br>
+            <input type="email" name="email" id="name" placeholder="Enter your email">
+        </P>
+         <P>
+            <Label>Phone number:</Label><br>
+            <input type="tel" name="Phone" id="Phone" placeholder="Enter your phone number:" minlength="6" maxlength="13">
+        </P>
+
+         <P>
+            <Label for="password">Password:</Label><br>
+            <input type="password" name="password" placeholder="Enter your password" minlength="5" maxlength="9" >
+        </P>
+        <p>
+            <label for="date">Enter your date of birth:</label><br>
+            <input type="date" name="date" id="date">
+        </p>
+    </fieldset>
+   <fieldset>
+    <legend>Order Information</legend>
+    <p>
+    <label>Products You Want:</label><br>
+       </p>             
+          <p>
+     <input type="checkbox" name="alaab" value="cunto">
+    <label>Food Items</label><br>
+     </p>
+        <p>
+         <input type="checkbox" name="alaab" value="caano">
+     <label>vegatables</label><br>
+    </p>
+          <p>
+        <input type="checkbox" name="alaab" value="qudaar">
+         <label> Drinks</label><br>
+            </p>
+                <p>
+            <input type="checkbox" name="alaab" value="qudaar">
+            <label> Fruits</label><br>
+
+                </p>
+                <p>
+            <input type="checkbox" name="alaab" value="Dairy">
+            <label> Dairy</label><br>
+            </p>
+                <p>
+            <input type="checkbox" name="alaab" value="Bakery">
+            <label>Bakery</label><br>
+                </p>
+                          
+            <label for="nooca" class="required">Order Type:</label><br>
+        <select id="nooca" name="nooca" required>
+        <option value="">Select type</option>
+         <option value="online">Online (Home Delivery)</option>
+         <option value="offline">Offline (Store Pickup)</option>
+              <option value="both">Online & Offline</option>
+        </select><br>
+        
+           
+         <label for="magaalada" class="required">District:</label><br>
+                <select id="magaalada" name="magaalada" required>
+              <option value="select">Select Dagmada dagantahay</option>
+             <option value="hodan">hodan</option>
+             <option value="Howlwadaag">Howlwadaag</option>
+            <option value="dayniile">dayniile</option>
+            <option value="yaqshiid">yaqshiid</option>
+             <option value="kaxda">kaxda</option>
+             <option value="hiliwaa">hiliwaa</option>
+             <option value="wadajir">wadajir</option>
+             <option value="xamarjajab">xamarjajab</option>
+             <option value="shibis">shibis</option>
+             <option value="shangaani">shangaani</option>
+                        </select><br>
+            
+        <label>Payment Method:</label><br>
+          
+    <input type="radio" name="lacag" value="cash" required>
+         <label>Cash</label><br>
+         <input type="radio" name="lacag" value="card">
+         <label>Card bank</label><br>
+                     
+    <input type="radio" name="lacag" value="zaad">
+        <label for="">Evcplus</label><br>
+        <label>
+        <input type="radio" name="lacag" value="e-dahab">
+     <label for="">E-Dahab</label><br>           
+    <label for="faahfaahin">Any idea:</label><br>
+    <textarea id="faahfaahin" name="faahfaahin" placeholder="comments">
+         </textarea>                
+    </fieldset>
+           <p>
+            <input type="button" name="submit" value="order">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <input type="button" name="delete" value="delete">&nbsp; &nbsp;
+        </p>
+    </fieldset>
+    </form></div>
+
+    <div class="img">
+    <img src="register.jpeg" alt="s"></div>
+    
+</div>
+</body>
+</html>

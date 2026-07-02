@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prime supermarket</title>
+    <link rel="icon" href="fav.icon.png">
+</head>
+<style>
+.store{
+    padding:10px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+
+}
+header{
+    background:#25285C;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+padding:10px 20px;
+}
+
+nav a{
+    
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight: bold;
+     border: radius 50px;
+}
+nav a:hover{
+    background:white;
+    color:navy;
+    border-radius: 25px;
+    border: 20px;
+}
+
+.card {
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+           box-shadow: 0 2px 8px #25285C;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+        transform: translateY(-5px); 
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 100px;
+            border: 3px solid rgb(95, 95, 180);
+            object-fit: cover;
+            
+        }
+
+        .card h3{
+            color: #25285C;
+        }
+
+        .card p {
+            color:black;
+            font-size: 14px;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+    button{ 
+    border-radius:50px;
+    background-color:#25285C;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+font-weight: 600;}
+footer {
+            background:#25285C;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            font-size: 13px;
+        }
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+</style>
+<body>
+    <header>
+    <h1>Prime SuperMarket</h1>
+
+    <nav>
+        <a href="index.html">Home</a>&nbsp; &nbsp;
+        <a href="menu.html">store</a>&nbsp; &nbsp;
+        <a href="about.html">about us</a>&nbsp; &nbsp;
+        <a href="price.html">price</a>&nbsp; &nbsp;
+        <a href="registration.html">Order</a>&nbsp; &nbsp;
+        <a href="contacts.html">contacts</a>&nbsp; &nbsp;
+        <a href="FAQ.html">FAQ</a>&nbsp; &nbsp;
+    
+    </nav>
+
+</header>
+   <main class="store">
+
+<h2>Our Store</h2>
+
+<div class="cards">
+<div class="card">
+    <img src="grocery.jpg.jpeg" alt="gro">
+<h3>Grocery Items</h3>
+<p>Rice, spaghetti, flour, sugar, cooking oil, and other daily essentials.</p>
+<button>add jart</button></div>
+
+<div class="card">
+    <img src="vegatable.jpg.jpeg" alt="veg">
+<h3>Vegetables</h3>
+<p>Fresh Tomatoes, Carrots, Onions</p>
+<button>add jart</button>
+</div>
+<div class="card">
+    <img src="fruits.jpg.jpeg" alt="fruits">
+<h3>Fruits</h3>
+<p>fresh apples,bananas,mangoes</p>
+<button>add jart</button>
+</div>
+<div class="card">
+    <img src="drinks.jpg.jpeg" alt="drinks">
+<h3>Drinks</h3>
+<p>Juices, Water and Soft Drinks</p>
+<button>add jart</button>
+</div>
+
+<div class="card">
+    <img src="bakery.jpg.jpeg" alt="n">
+<h3>Bakery</h3>
+<p>Bread, Cakes and Cookies</p>
+<button>add jart</button>
+</div>
+
+<div class="card">
+    <img src="dairy.jpg.jpeg" alt="de">
+<h3>Dairy</h3>
+<p>Milk, Cheese and Butter</p>
+<button>add jart</button>
+</div>
+
+
+<div class="card">
+<img src="meat.jpg.jpeg" alt="m">
+<h3>fresh meat</h3>
+<p>beef,chicken and lamb</p>
+<button>add jart</button></div>
+
+<div class="card">
+    <img src="utensils.jpg.jpeg" alt="m">
+<h3>kitchen utensils</h3>
+<p>spoon,forks,frying pan</p>
+<button>add jart</button></div></div>
+</main>
+<footer><h2>&copy; prime supermarket</h2>
+</footer>
+
+</body>
+</html>
+
+
+

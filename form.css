@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+.order{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+body{
+    background-image: url(background.jpeg);
+     background-size:cover;
+    background-position:center; 
+}
+header{
+    background:#25285C;
+    color:white;
+    padding:10px;
+    border-radius: 15px;
+    justify-content: space-between;
+display: flex;}
+    nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight: bold;
+    border: radius 50px;
+    transition:.3s;}
+
+nav a:hover{
+    background:rgb(212, 208, 207);
+    color:#25285C;
+}
+.form{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+.img{
+    width: 30%;
+}
+.form{
+    width: 50%;
+}
+h3{
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 5px;
+}
+.img{
+    width: 45%;
+    color: white;
+}
+.img img{
+    width: 100%;
+    height:950px;
+    border-radius: 10px;
+}
+
+fieldset{
+    border:2px solid #585c5c;
+    border-radius:15px;
+    padding:18px;
+    margin-bottom:18px;   
+}
+
+legend{
+    font-size:28px;
+    color:#414242;
+    font-weight:bold;
+    padding:0 10px;
+}
+
+label{
+    font-weight:bold;
+    
+}
+input[type="checkbox"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:12px;
+    border:1px solid #bbb;
+    border-radius:10px;
+    font-size:15px;
+    
+}
+input[type="radio"]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:12px;
+    border:1px solid #bbb;
+    border-radius:10px;
+    font-size:15px;
+    }
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border:2px solid #25285C;
+    box-shadow:0 0 8px #868787;
+    outline:none;
+}
+
+
+input[type="button"]{
+    width: 150px;
+    padding:12px;
+    background:#25285C;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:18px;
+    
+}
+
+input[type="button"]:hover{
+    background:rgb(222, 219, 219);
+    color: #8d938d;
+}
+        @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+}

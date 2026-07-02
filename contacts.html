@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prime supermarket</title>
+    <link rel="icon" href="fav.icon.png">
+</head>
+<style>
+    
+header{
+   background-color: #25285C;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+    padding:10px 20px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight: bold;
+    border: radius 50px;
+    transition:.3s;
+}
+a:hover{
+    background-color: rgb(106, 161, 209);
+}
+body{
+     background-image: url(background.jpeg);
+     background-size:cover;
+    background-position:center; 
+}
+.contact{
+    width: 90%;
+      margin:auto;
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+        }
+.contact p{
+        font-size: medium;
+        font-weight: 500;
+    }
+.contact-info{
+    width: 45%;
+        padding:15px;
+        background-color:rgba(255, 255, 255, 0.824);
+        border-radius: 10px;
+}
+.contact-box{
+     border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+.contact-box h3{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.contact-form{
+     padding: 25px;
+    width: 48%;
+     padding: 25pxpx;
+        background-color:rgba(255, 255, 255, 0.824);
+        border-radius: 10px;
+}
+.py{
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color:white;
+    font-size: 16px;
+     background-color:rgba(255, 255, 255, 0.824);
+     width: 90%;
+     margin: auto;
+}
+
+.contact-form label{
+    display: block;
+    margin-top: 5px;
+    font-weight: 600;
+}
+input[type="textarea"]{
+    width: 100%;
+    padding: 12px;
+    border:none ;
+    border-radius: 5px;
+    background-color: brown;
+}
+button{
+margin-top: 20px;
+padding: 12px 30px;
+border: none;
+border-radius: 5px;
+background-color: #25285C;color: white;
+}
+.contact-form button:hover{
+background:blue;
+}
+.contact-form input,
+.contact-form textarea{
+width: 100%;
+padding: 12px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;}
+
+iframe{
+    width:95%;
+    height: 250px;
+     border:10px;
+}
+section h2{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+}
+        @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+</style>
+<body>
+     <header>
+    <h1>Prime SuperMarket</h1>
+    <nav>
+        <a href="index.html">Home</a>&nbsp; &nbsp;
+        <a href="menu.html">menu</a>&nbsp; &nbsp;
+        <a href="about.html">about us</a>&nbsp; &nbsp;
+        <a href="price.html">price</a>&nbsp; &nbsp;
+        <a href="registration.html">Order</a>&nbsp; &nbsp;
+        <a href="contacts.html">contacts</a>&nbsp; &nbsp;
+        <a href="FAQ.html">FAQ</a>&nbsp; &nbsp;
+    
+    </nav>
+    </header>
+    
+        <div class="py"><h1 >contact us</h1>
+        <p>waxaan diyaar unahay inaan kucaawino markaste</p></div>
+        <section class="contact">
+<div class="contact-info">
+    <h2>contact information</h2>
+    <div class="contact-box">
+        <h3>adress</h3>
+        <p>howlwadaag district</p>
+        <p>isgoyska bakaaro</p>
+        <p>mogadishu,somalia</p>
+    </div>
+    <div class="contact-box">
+        <h3>phone</h3>
+        <p>098654322245</p>
+        <p>900765442224</p>
+    </div>
+
+    <div class="contact-box">
+        <h3>email</h3>
+        <p>info@primesupermarket.com</p>
+</div>
+
+<div class="contact-box">
+    <h3>opening hours</h3>
+    <p>saturday-thursday</p>
+    <p>07:00-22:00</p>
+</div></div>
+<div class="contact-form">
+    <h2>send us a message</h2>
+    <form action="method">
+        <label for="name">your name:</label><br>
+        <input type="text" id="name" placeholder="enter your name"><br>
+        <label for="email">your email:</label><br>
+        <input type="email" id="email" placeholder="enter your email"><br>
+        <label for="pruduct">product</label><br>
+        <input type="text" id="product" placeholder="product you want"><br>
+        <label for="">message:</label><br>
+<textarea name="message" id="message" placeholder="message"></textarea>
+<button type="submit">send message</button></div>
+</form>
+</div>
+</div>
+</section>
+
+<section>
+  <h2>Our Location</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.275543479344!2d45.317161773488834!3d2.045682658947331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d5843cf21dd29ab%3A0x7f37e2e87e96e6ea!2sIsgoyska%20bakaaraha!5e0!3m2!1sen!2sso!4v1782933163780!5m2!1sen!2sso" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" ></iframe>
+  
+</section>
+</body>
+</html>
